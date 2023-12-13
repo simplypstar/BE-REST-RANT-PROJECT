@@ -3,7 +3,7 @@
 
 REST-Rant is an app where users can review restaurants.
 
-## Routes
+## Places Routes
 | Method | Path | Purpose |
 | :--- | :--- | :--- |
 | GET |  / | Homepage |
@@ -15,4 +15,4 @@ REST-Rant is an app where users can review restaurants.
 | PUT |  /places/:id | Make changes to an existing place |
 | DELETE |  /places/:id | Delete an existing place |
 | POST |  /places/:id/rant | Post a rant (comment) about a specific place |
-| DELETE |  /places/:id/rant/:id | Delete an existing rsnt (comment) 
+| DELETE |  /places/:id/rant/:id | Delete an existing rant (comment) 
