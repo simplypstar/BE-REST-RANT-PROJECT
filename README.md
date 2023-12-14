@@ -18,12 +18,23 @@ REST-Rant is an app where users can review restaurants.
 | POST |  /places/:id/rant | Post a rant (comment) about a specific place |
 | DELETE |  /places/:id/rant/:id | Delete an existing rant (comment) 
 
-### Places Database
-| Place | Data Type |
+### Database
+#### Places
+| Field | Data Type |
 | :--- | :--- |
-|  _id | Object |
+|  _id | Object ID |
 |  name | STRING |
 |  city | STRING |
 |  state | STRING |
 |  cuisines | STRING |
 |  pic | STRING |
+
+#### Rants
+| Field | Data Type |
+| :--- | :--- |
+|  _id | Object ID |
+|  place_id | ref(places) Object_id |
+|  rant | Boolean |
+|  rating | Number |
+|  comment | STRING |
+|  reviewer | STRING |
