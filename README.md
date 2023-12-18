@@ -38,3 +38,13 @@ REST-Rant is an app where users can review restaurants.
 |  rating | Number |
 |  comment | STRING |
 |  reviewer | STRING |
+
+## Image References:
+Photo by <a href="https://unsplash.com/@jae462?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jay Antol</a> on <a href="https://unsplash.com/photos/body-of-water-during-sunset-Xbf_4e7YDII?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@kobbymendez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kobby Mendez</a> on <a href="https://unsplash.com/photos/doughnut-with-toppings-q54Oxq44MZs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+ Photo by <a href="https://unsplash.com/@cravethebenefits?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brenda Godinez</a> on <a href="https://unsplash.com/photos/two-fruit-beverages-on-glass-cups-MsTOg6rhRVk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+ Photo by <a href="https://unsplash.com/@ricardofrantz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ricardo frantz</a> on <a href="https://unsplash.com/photos/photo-of-blue-and-green-peacock-GvyyGV2uWns?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    

@@ -2,4 +2,20 @@ h1 {
     text-align: center;
     color: cornflowerblue;
   }
-  
+ 
+h2 {
+    text-align: center;
+    color: cornflowerblue;
+  }
+
+.col-sm-6 {
+    width: 550px;
+    height: 450px;
+    /* background-color: #0a0a23; */
+}
+
+.col-sm-6 img {
+    /* width: 550px; */
+    margin: auto;
+    display: block;
+}
