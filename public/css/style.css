@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
     color: cornflowerblue;
+    font-weight: bold;
   }
  
 h2 {
@@ -8,14 +9,41 @@ h2 {
     color: cornflowerblue;
   }
 
+.container-sm {
+  margin: auto;
+  display: block;
+  text-align: center;
+
+} 
+
+.container-sm img {
+  width: 450px;
+  height: 350px;
+}
+
+.row {
+  margin: auto;
+  display: block;  
+}
+
 .col-sm-6 {
     width: 550px;
     height: 450px;
-    /* background-color: #0a0a23; */
 }
 
 .col-sm-6 img {
-    /* width: 550px; */
+    width: 450px;
+    height: 350px;
     margin: auto;
     display: block;
+    border: 2px;
+}
+
+button {
+  color:blueviolet;
+  background-color: lightblue;
+  font-weight: bold;
+  margin: auto;
+  /* margin-left: 50px;
+  text-align: center; */
 }
