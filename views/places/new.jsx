@@ -6,23 +6,22 @@ function new_form () {
         <Def>
             <main>
                 <h1>Add a New Place</h1>
-                <form method="POST" action="/places">
+                <form method="POST" action="/places" content='center'>
                     <div >
-                        <label className="form-a" htmlFor="name">Place Name</label>
-                        <input className="form-control form-a form-b" id="name" name="name" required />
+                        <label htmlFor="name">Place Name</label>
+                        <input className="form-control form-b" id="name" name="name" required />
                     </div>
                     <div >
-                        <label className="form-a" htmlFor="pic">Place Picture</label>
-                        <input className="form-control form-a form-b" type="url" id="pic" name="pic" />
+                        <label htmlFor="pic">Place Picture</label>
+                        <input className="form-control form-b" type="url" id="pic" name="pic" />
                     </div>
                     <div >
-                        <label className="form-a" htmlFor="city">City</label>
-                        <input className="form-control form-a form-b" id="city" name="city" />
+                        <label htmlFor="city">City</label>
+                        <input className="form-control form-b" id="city" name="city" />
                     </div>
                     <div >
-                        <label className="form-a" htmlFor="state">State</label>
-                        {/* <input className="form-control" id="state" name="state" /> */}
-                        <select className="form-control form-a form-b"name="state" size="1">
+                        <label htmlFor="state">State</label>
+                        <select className="form-control form-b" id="state" name="state" size="1">
                             <option value="AK">AK</option>
                             <option value="AL">AL</option>
                             <option value="AR">AR</option>
@@ -76,11 +75,11 @@ function new_form () {
                             <option value="WY">WY</option>
                         </select>
                     </div>
-                    <div className="form-group form-a form-b" >
+                    <div>
                         <label htmlFor="cuisines">Cuisines</label>
-                        <input className="form-control" id="cuisines" name="cuisines" required />
+                        <input className="form-control form-b" id="cuisines" name="cuisines" required />
                     </div>
-                        <input className="btn btn-primary form-a" type="submit" value="Add Place" />
+                        <input className="btn btn-primary" type="submit" value="Add Place" />
                 </form>
 		    </main>
 	    </Def>
