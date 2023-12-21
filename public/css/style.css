@@ -25,10 +25,10 @@ p, label {
   font-weight: bold;
   color: rgb(133, 157, 203);
 
-  select {
+  /* select {
     font-size: 18px;
     font-weight: bold;
-  }
+  } */
 }
 
 
@@ -36,7 +36,6 @@ p, label {
   margin: auto;
   display: block;
   text-align: center;
-
 } 
 
 .container-sm img {
@@ -44,79 +43,79 @@ p, label {
   height: 350px;
 }
 
-.row {
-  margin: auto;
-  display: block;  
-}
-
 .col-sm-6 {
+    min-width: none;
     width: 550px;
-    height: 450px;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center; */
+    /* height: 450px; */
+    margin-top: 25px;
 } 
 
 .col-sm-6 img {
     width: 350px;
     height: 250px;
-    /* margin: auto; */
-    /* display: grid; */
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* text-align: center; */
 }
 
-nav {
+.navbar-nav {
   background-color: cornflowerblue;
   padding: 10px;
+  margin: auto;
+  width: 100%;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-}
 
-nav li {
+.navbar-nav .nav-item {
   display: inline;
-  margin-right: 25px;
-}
+  /* margin-left: 25px; */
+  margin: auto;
+  /* color: rgb(245, 4, 4); */
+  font-size: 1.75em;
+} 
 
-nav a {
-  color: white;
-  font-size: 1.5em;
-}
-
-nav a:hover {
+.navbar-nav .nav-link {
   color: pink;
   text-decoration: none;
+  transition: 0.3s ease-in-out !important;
 }
 
+.navbar-nav .nav-link:hover {
+  color: red;
+  text-decoration: none;
+  transition: 0.3s ease-in-out !important;
+}
 
 button {
-  color:blueviolet;
-  background-color: lightblue;
+  color:#791ecf;
+  background-color: rgb(121, 30, 207);
+  /* background-color: lightblue; */
   font-weight: bold;
   margin: auto;
+  width: 200px;
 }
 
-.btn {
-  border-color: 50px black;
+.btn, .btn-primary {
+  width: 100px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 .row {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
   margin: auto;
 }
 
 .form-b {
-  width: 550px;
+  /* width: 550px; */
   margin: auto;
 }
 
 footer {
   height: 20px;
-  margin-bottom: -25px;
-  margin-left: 50px;
+  /* margin-bottom: -25px;
+  margin-left: 50px; */
   margin-top: 25px;
 }
