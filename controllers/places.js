@@ -42,6 +42,7 @@ router.get('/:id/edit', (req, res) => {
 // PUT an Edited Place by its id number
 router.put('/:id', (req, res) => {
   let id = Number(req.params.id)
+  console.log(req.params.id)
   if (isNaN(id)) {
       res.render('error404')
   }
@@ -85,6 +86,7 @@ router.post('/', (req, res) => {
   places.push(req.body)
   res.redirect('/places')
 })
+
 
 // DElETE a Place by its id number
 router.delete('/:id', (req, res) => {

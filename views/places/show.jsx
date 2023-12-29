@@ -19,14 +19,17 @@ function show (data) {
                     <h2>Description</h2>
                     <h5>Located in {data.place.city}, {data.place.state}</h5>
                     <h5>Serving {data.place.cuisines}</h5>
+                    <h5>Established {data.place.estdate}</h5>
                 </div>
             </div>
-            <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
-                Edit
+            <a href={`/places/${data.id}/edit`} className="btn btn-warning">
+                <i className="bi bi-pencil-square"></i>
+                    Edit
             </a>  
             <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
                 <button type="submit" className="btn btn-danger">
-                    Delete
+                    <i className="bi bi-trash"></i>
+                     Delete
                 </button>
             </form>     
           </main>
