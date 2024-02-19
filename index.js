@@ -2,6 +2,7 @@
 require('dotenv').config()
 const express = require('express');
 const app = express();
+const mongoose = require('mongoose')
 const methodOverride = require('method-override')
 
 // Express Settings
@@ -23,12 +24,10 @@ app.get('*', (req, res) => {
   res.render('error404')
 })
 
-// // GET  /places
-// app.get('/', (req, res) => {
-//   let places= []
-//   res.render('places/index')
-// })
-
+// db connection
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log('DB connected'))
+  .catch(err => console.error(err));
 
   
 app.listen((process.env.PORT),(req, res) => {

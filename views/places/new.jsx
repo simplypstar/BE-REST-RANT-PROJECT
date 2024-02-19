@@ -7,19 +7,19 @@ function new_form () {
             <main>
                 <h1>Add a New Place</h1>
                 <form method="POST" action="/places" content='center'>
-                    <div >
+                    <div className="form-group">
                         <label htmlFor="name">Place Name</label>
                         <input className="form-control form-b" id="name" name="name" required />
                     </div>
-                    <div >
+                    <div className="form-group">
                         <label htmlFor="pic">Place Picture</label>
                         <input className="form-control form-b" type="url" id="pic" name="pic" />
                     </div>
-                    <div >
+                    <div className="form-group">
                         <label htmlFor="city">City</label>
                         <input className="form-control form-b" id="city" name="city" />
                     </div>
-                    <div >
+                    <div className="form-group">
                         <label htmlFor="state">State</label>
                         <select className="form-control form-b" id="state" name="state" size="1">
                             <option value="AK">AK</option>
@@ -75,13 +75,13 @@ function new_form () {
                             <option value="WY">WY</option>
                         </select>
                     </div>
-                    <div>
+                    <div className="form-group">
                         <label htmlFor="cuisines">Cuisines</label>
                         <input className="form-control form-b" id="cuisines" name="cuisines" required />
                     </div>
-                    <div>
-                        <label htmlFor="estdate">Established</label>
-                        <input className="form-control form-b" id="estdate" name="estdate" required />
+                    <div className="form-group">
+                        <label htmlFor="founded">Founded</label>
+                        <input className="form-control form-b" id="founded" name="founded" required />
                     </div>
                         <input className="btn btn-primary" type="submit" value="Add Place" />
                 </form>

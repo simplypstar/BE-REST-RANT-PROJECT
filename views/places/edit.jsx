@@ -86,8 +86,8 @@ function edit_form (data) {
                             <input className="form-control" id="cuisines" name="cuisines" required defaultValue={data.place.cuisines}/>
                         </div>
                         <div className="form-group col-sm-6">
-                            <label htmlFor="estdate">Established Date</label>
-                            <input className="form-control" id="estdate" name="estdate" required defaultValue={data.place.estdate}/>
+                            <label htmlFor="founded">Founded Date</label>
+                            <input className="form-control" id="founded" name="founded" required defaultValue={data.place.founded}/>
                         </div>
                     </div>
                         <input className="btn btn-primary" type="submit" value="Edit Place" />

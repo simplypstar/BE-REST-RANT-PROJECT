@@ -19,7 +19,7 @@ function show (data) {
                     <h2>Description</h2>
                     <h5>Located in {data.place.city}, {data.place.state}</h5>
                     <h5>Serving {data.place.cuisines}</h5>
-                    <h5>Established {data.place.estdate}</h5>
+                    <h5>Founded {data.place.founded}</h5>
                 </div>
             </div>
             <a href={`/places/${data.id}/edit`} className="btn btn-warning">
